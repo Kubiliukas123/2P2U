@@ -1,0 +1,123 @@
+body{
+    background-image: url(../IMG/BG.jpg);
+}
+main{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 40px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.inline{
+    display: inline-block;
+}
+.logo-txt{
+    padding: 15px 0 15px 0;
+    color: rgb(27, 104, 104);
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    width: 50px;
+}
+.logo-position{
+    margin-top: 20px;
+    margin-left: calc((100% - 100px) / 2);
+    /* margin-left: 180px; */
+}
+.underlogo{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.undertext{
+    color: rgba(128, 128, 128, 0.445);
+    margin: 5px 0;
+
+}
+.name_input{
+    all: unset;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 236);
+
+}
+.float-r{
+    float: right;
+}
+.m-b-5{
+    margin-bottom: 5px;
+}
+.email_input{
+    all: unset;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 236);
+    margin-bottom: 10px;
+}
+.input-titles{
+    font-size: 20px;
+}
+.date-select{
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(226, 231, 236);
+    border-radius: 5px;
+    margin: 0 5px 10px;
+}
+.m-l-0{
+    margin-left: 0;
+}
+.c-logo{
+    width: 50px;
+    height: 30px;
+}
+.tel-input{
+    all: unset;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 236);
+    margin-bottom: 10px;
+}
+.walk-select{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 236);
+    margin: 5px 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+}
+button{
+    all: unset;
+    background-color: rgb(27, 104, 104);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 50px 0;
+
+}
